@@ -1,0 +1,21 @@
+{
+    "name": "PPID",
+    "alias": "ppid",
+    "description": "Module PPID untuk E-Panel.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PPID\\Providers\\PPIDServiceProvider"
+    ],
+    "aliases": {
+        "Layanan": "Modules\\PPID\\Entities\\Plugin\\Layanan", 
+        "Pengadaan": "Modules\\PPID\\Entities\\Plugin\\Pengadaan", 
+        "SOP": "Modules\\PPID\\Entities\\Plugin\\SOP", 
+        "UnduhFile": "Modules\\PPID\\Entities\\Unduhan\\UnduhanFile", 
+        "UnduhKategori": "Modules\\PPID\\Entities\\Unduhan\\UnduhanKategori"
+    },
+    "files": [
+        "Helpers/Enterwind.php"
+    ],
+    "requires": []
+}
